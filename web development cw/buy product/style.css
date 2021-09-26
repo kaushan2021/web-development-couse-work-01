@@ -1,0 +1,160 @@
+head{
+    background-color: #5200A5 ;
+    padding: 40px;
+}
+
+body{
+    background-color: white   ;
+}
+
+span{
+    padding-top: 6%;
+    padding-right: 45px;
+    float: right;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#heading{
+    padding: 30px;
+    background-color: #5200A5 ;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+
+
+
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image:hover{
+    opacity: 0.5;
+    background-color:#A146FC;
+
+}
+.cart{
+    font-size: 10px;
+    padding: 15px;
+    border: #5200A5;
+
+}
+.cart:hover{
+    transition: .6s ease;
+    background-color: #B36FF7;
+}
+.forms{
+    margin-top: 20%;
+    float: left;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    background-color: #E5E8E8;
+    text-align: left;
+
+}
+.label_form{
+    padding: 10px;
+}
+#fname{
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: "Apple Braille";
+
+}
+#lname{
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-family: "Apple Braille";
+}
+#email{
+    padding: 5px;
+    margin-left: 80px;
+    font-family: "Apple Braille";
+}
+
+#dilshan_img{
+    border: 8px solid #555;
+}
+#logo{
+    position: absolute;
+
+}
+
+#invoice{
+    margin-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    margin-right: 50%;
+    font-size: 15px;
+    font-family: ".SF NS";
+    opacity: 0.8;
+
+
+}
+.product{
+    text-align: center;
+    float: none;
+}
+
+footer{
+    background-color: #5200A5;
+
+}
+.inv_button{
+    position: relative;
+    margin-left: 60px;
+    border: #5200A5;
+    font-family: ".SF NS";
+    padding: 10px;
+
+
+}
+.inv_button:hover{
+    background-color:#54F122  ;
+    transition: .3s ease;
+    border: red;
+}
+#close_button{
+
+    position: relative;
+    margin-left: 60px;
+    border: #5200A5;
+    font-family: ".SF NS";
+    padding: 10px;
+}
+#close_button:hover{
+    background-color:#F14822;
+    transition: .3s ease;
+    border: red;
+}
+.check_out{
+    position: relative;
+    font-family: "Apple Braille";
+    margin-top: 20px;
+    margin-left: 60%;
+    border: #5200A5;
+    padding: 10px;
+
+}
+.check_out:hover{
+    transition: .6s ease;
+    background-color: #7BF971;
+
+}
+
+#msg{
+    position: absolute;
+    margin-top: 120%;
+    margin-left: 60%;
+    padding: 60px;
+    background-color: #B36FF7;
+
+}

@@ -1,0 +1,39 @@
+span{
+    padding-top: 6%;
+    padding-right: 45px;
+    float: right;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+
+
+
+}
+
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
+
+    border: 3px solid ;
+    border-color: aliceblue;
+    border-radius:100%;
+}
+
+body{
+    background-color: black;
+    background-image: url("image/back2.jpg");
+
+
+}
+#heading{
+    margin-left: 40%;
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #E5E8E8;
+}
+
+.name{
+    background-color: azure;
+    padding: 10px;
+    opacity: 0.8;
+
+}

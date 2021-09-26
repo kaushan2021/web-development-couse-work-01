@@ -1,0 +1,1 @@
+setTimeout(function(){ window.location = "second_page.html"; },6000);

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <p id="heading">Cricket Merch and Accessories <img src="https://img.icons8.com/emoji/48/ffffff/cricket-game-emoji.png"/></p>
+
+
+<body>
+
+<span>
+    <img src="image/shirt1.jpg" alt="pic1" width="300px" height="300px" class="image">
+    <P class="name">Nike Shirt (Men)</P>
+    <button class="cart"  type="button" onclick="count_shit1()">Add Cart</button>
+    <img src="https://img.icons8.com/plasticine/50/000000/buy--v2.png"/>
+
+  </span>
+
+</span>
+<span>
+    <img src="image/shirt2.jpg" alt="pic1" width="300px" height="300px" class="image">
+    <P class="name">Nike Shirt (Women)</P>
+    <button class="cart"  type="button" onclick="count_shit2()">Add Cart</button>
+    <img src="https://img.icons8.com/plasticine/50/000000/buy--v2.png"/>
+
+</span>
+<span>
+    <img src="image/bat.jpg" alt="pic1" width="300px" height="300px" class="image">
+    <P class="name">Nike Bat </P>
+    <button class="cart"  type="button" onclick="count_shit3()">Add Cart</button>
+    <img src="https://img.icons8.com/plasticine/50/000000/buy--v2.png"/>
+</span>
+<span>
+    <img src="image/shoes.jpg" alt="pic1" width="300px" height="300px" class="image">
+    <P class="name">Nike Shoes</P>
+    <button class="cart"  type="button" onclick="count_shit4()">Add Cart</button>
+    <img src="https://img.icons8.com/plasticine/50/000000/buy--v2.png"/>
+</span>
+
+
+<span class="forms">
+
+    <form action="/action_page.php" name="forms" id="detail_form">
+     <label class="label_form"> First Name </label>
+        <input type="text" id="fname" name="fname" >
+        <br>
+        <label class="label_form"> Last Name </label>
+        <input type="text" id="lname" name="lname" >
+        <br>
+        <label class="label_form"> Email </label>
+        <input type="text" id="email" name="email" >
+        <button class="check_out" type="button" onclick="check_out()">Check out</button>
+        <button class="inv_button" type="reset" onclick="reset_method()">Reset</button>
+
+    </form>
+</span>
+
+<span>
+    <img src="image/dilshan.jpeg" width="400px" height="600px"  id="dilshan_img">
+</span>
+<img src="image/logo.png" width="100px" height="100px" id="logo">
+<span id="invoice">
+    <p id="invoice_title"></p>
+    <br>
+    <p id="cus_name"></p>
+    <p id="inv_name"><p>
+    <p id="cus_mail"></p>
+    <p id="inv_email"></p>
+    <br>
+    <p class="product"></p>
+        <p id="product1"></p>
+        <p id="qty1"></p>
+        <p id="price1"></p>
+        <br>
+
+    <p class="product"></p>
+        <p id="product2"></p>
+        <p id="qty2"></p>
+    <p id="price2"></p>
+    <br>
+    <p class="product"></p>
+        <p id="product3"></p>
+        <p id="qty3"></p>
+    <p id="price3"></p>
+    <br>
+    <p class="product"></p>
+        <p id="product4"></p>
+        <p id="qty4"></p>
+    <p id="price4"></p>
+    <p id="total"></p>
+    <div id="pay_button">
+        <button class="inv_button" type="submit" onclick="pay()">Pay</button>
+        <button id="close_button"  onclick="close_invoice()">Close</button>
+    </div>
+
+
+
+</span>
+<span id="msg">
+    <p>Successfully Place the order</p>
+</span>
+
+<script src="script_file.js"></script>
+</body>
+</html>
